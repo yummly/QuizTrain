@@ -13,7 +13,7 @@ Pod::Spec.new do |spec|
   
   spec.swift_version = '5.0'
 
-  spec.source       = { :git => "git@github.com:yummly/QuizTrain.git", :tag => spec.version }
+  spec.source       = { :git => "https://github.com/yummly/QuizTrain.git", :tag => spec.version }
 
   spec.source_files  = "QuizTrain", "QuizTrain/**/*.{swift}"
   spec.exclude_files = "QuizTrain/Exclude"
