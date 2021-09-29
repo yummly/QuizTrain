@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "QuizTrain"
-  spec.version      = "2.1.1"
+  spec.version      = "2.1.2"
   spec.summary      = "Forked in Yummly: QuizTrain is a framework created at Venmo allowing you to interact with TestRail's API using Swift."
   spec.homepage     = "https://github.com/yummly/QuizTrain"
   spec.license      = "MIT"
