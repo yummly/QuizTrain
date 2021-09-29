@@ -1,5 +1,18 @@
 # QuizTrain 📝🚆
 
+*Yummly specfics:*
+
+Deployment: Is currently done via a private Cocoapods, located at https://github.com/yummly/YummlyPODS/tree/master/QuizTrain 
+Deployment of a new version requires new tag creation:
+
+1)  Add a new tag by incrementing the last pushed tag
+2) Edit Quiztrain.podspec by incrementing the version
+3) Push the tag remotely
+4) Publish the pod remotely by running the following command:
+pod repo push https://github.com/yummly/YummlyPODS QuizTrain.podspec --verbose --allow-warnings --skip-import-validation --verbose
+
+**Original**
+
 QuizTrain is a framework created at Venmo allowing you to interact with [TestRail's API](http://docs.gurock.com/testrail-api2/start) using Swift. It supports iOS, macOS, tvOS, and watchOS.
 
 To use QuizTrain you must have a valid [TestRail](http://www.gurock.com/testrail/) license and instance to access.
