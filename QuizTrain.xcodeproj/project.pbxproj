@@ -685,6 +685,7 @@
 		418371312703578D009521BD /* QuizTrainData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuizTrainData.swift; sourceTree = "<group>"; };
 		4183713627035887009521BD /* BulkSections.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkSections.swift; sourceTree = "<group>"; };
 		4183713B270365B9009521BD /* BulkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BulkTests.swift; sourceTree = "<group>"; };
+		5DD9852227049E88006DF947 /* QuizTrain.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = QuizTrain.podspec; sourceTree = "<group>"; };
 		FE018DC61F85708C001A2FEF /* ModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelTests.swift; sourceTree = "<group>"; };
 		FE09FFB31FE320CA0009FB2F /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
 		FE09FFCF1FE325CE0009FB2F /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
@@ -1057,6 +1058,7 @@
 		FE23A9121F59F39F007E946D = {
 			isa = PBXGroup;
 			children = (
+				5DD9852227049E88006DF947 /* QuizTrain.podspec */,
 				FE23A91E1F59F3A0007E946D /* QuizTrain */,
 				FE23A9291F59F3A0007E946D /* QuizTrainTests */,
 				FE23A91D1F59F3A0007E946D /* Products */,
