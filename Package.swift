@@ -14,12 +14,13 @@ let package = Package(
     targets: [
         .target(
             name: "QuizTrain",
-            dependencies: [],
+            dependencies: []
+        ),
         .testTarget(
             name: "QuizTrainTests",
             dependencies: ["QuizTrain"],
             resources: [
-                .copy("Tests/QuizTrainTests/Testing\ Misc/TestCredentials.json"),
+                .copy("Tests/QuizTrainTests/Testing\(" ")Misc/TestCredentials.json"),
             ]),
     ]
 )
